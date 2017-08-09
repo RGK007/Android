@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/pic2">
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:id="@+id/num1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:id="@+id/num2"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/num1"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:id="@+id/num3"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/num2"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:id="@+id/num4"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/num3"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:id="@+id/num5"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/num4"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:id="@+id/num6"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/num5"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:id="@+id/num7"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/num6"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:id="@+id/num8"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/num7"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:id="@+id/num9"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/num8"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nxt"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/nu9"
+        android:layout_toStartOf="@+id/nu9" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/nu1"
+        android:layout_above="@+id/num2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/nu2"
+        android:layout_alignBottom="@+id/num2"
+        android:layout_alignLeft="@+id/nu1"
+        android:layout_alignStart="@+id/nu1" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/nu3"
+        android:layout_alignTop="@+id/num3"
+        android:layout_alignLeft="@+id/nu2"
+        android:layout_alignStart="@+id/nu2" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/nu4"
+        android:layout_below="@+id/nu3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/nu5"
+        android:layout_alignTop="@+id/num5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/nu6"
+        android:layout_below="@+id/nu5"
+        android:layout_alignLeft="@+id/nu5"
+        android:layout_alignStart="@+id/nu5" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/nu7"
+        android:layout_below="@+id/nu6"
+        android:layout_alignLeft="@+id/nu6"
+        android:layout_alignStart="@+id/nu6" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/nu8"
+        android:layout_below="@+id/nu7"
+        android:layout_alignLeft="@+id/nu7"
+        android:layout_alignStart="@+id/nu7" />
+
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/nu9"
+        android:layout_alignBottom="@+id/num9"
+        android:layout_alignLeft="@+id/nu8"
+        android:layout_alignStart="@+id/nu8" />
+
+</RelativeLayout>
